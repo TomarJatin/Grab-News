@@ -12,18 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GrabNews">
         <activity
-            android:name=".SplashScreen"
-            android:exported="true">
+            android:name=".webView"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".webView"
-            android:exported="true"
-            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
